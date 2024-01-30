@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!-- para o navegador saber que tudo que esta aqui é HTML -->
+<html lang="en">
+<head> <!-- head é a cabeça do codigo -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---importação do css--><link rel="stylesheet" href="CSS/Style.css">
+    <!---Reduz o uso de largura de banda--><link rel="preconnect" href="https://fonts.gstatic.com">
+    <!---importação de fonte pelo google fonts--><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!---importação de ícones-->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Meira Produções</title>
+</head> <!--- O elemento head representa uma coleção de metadados para o Documento -->
+<body> <!-- body é o corpo do codigo-->
+    <!---Cabeçalho-Main-->
+
+    <div class="background">
+        <header>
+        <nav>
+            <h2 class="logo">Portifolio<span> DO MEIRA</span></h2><!---[span: funciona como uma div, mas para linha única]-->
+            <ul class="cabeçalho-link"> <!--- ul: cria uma lista desordenada, sem numeros em seguência-->
+                <li><a href="#Sobre">Sobre Mim</a></li> <!-- li: cria uma lista-->
+                <li><a href="#Serviços">Serviços</a></li> <!-- O "href" vai servir como âncora, assim indo até o ponto marcado com ela -->
+                <li><a href="#Variedades">Variedades</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="Main">
+            <h3>Ola, eu sou um programador web e estou ao seu dispor!</h2>
+            <h1>Seja <span> Bem Vindo</span></h1> <!---[span: funciona como uma div, mas para linha única]-->
+
+            <h3>Bem vindo ao meu site, no que posso te ajudar?</h2>
+        
+        </div><!--Main-->
+    </div><!--background-->
+
+
+    <!--Começo-da-seção-sobre-->
+
+    <section class="background-color-Sobre" id="Sobre"> <!--- Definição do local da âncora, indo do ponto inicial até aqui. no "section" é definido o fundo preto -->
+        <div class="main-sobre"> <!-- Conteudo dentro do background -->
+            <div class="perfil">
+              <img src="IMG/willian.jpeg">
+            </div>
+            <div class="Text-sobre">
+                <h2>Sobre- Mim</h2>
+                <p> Olá Sou o Fernando Meira! um desenvolvedor web integrado no instituto federal, busco sempre por conhecimento na área
+                    e tento ajudar aqueles que nessecitam de ajuda, Gostario de algum serviço do Front-end?
+                </p>
+                    <h1></h1>
+                <img src="img/if.jpeg" class="hutao" style="height: 200%; width: 25% ;"> <!-- dimensionando melhor a imagem -->
+                <img src="img/amor.jpeg" class="hutao" style="height: 200%; width: 22%;">
+                <img src="IMG/FUNDO.jpeg" class="hutao" style="height: 10%; width: 22% ;">
+                <img src="img/sala.jpeg" class="hutao" style="height: 200%; width: 25% ;">
+             
+
+            </div><!--Text-sobre-->
+        </div><!--main-sobre-->
+    </section><!--background-color-Sobre-->
+
+    <!--Começo-da-seção-nossos-serviços-->
+
+    <div class="Container-serviços" id="Serviços"> <!-- background preto-->
+        <div class="title"> 
+            <h2>Serviços</h2>
+        </div>
+
+        <div class="Caixa"> <!-- É utilizado o flex nessa div para os conteudo ficaram ao lado-->
+            <div class="Card">
+                <i class="fas fa-bars"></i> <!-- Aqui é possivel chamar icones por causa da importação da cloudflare-->
+                <h5>Sobre Programação web</h5>
+                <div class="Paragrafo-button">
+
+                    <p>Conheça um pouco sobre a programação web. </p>
+                    <a href="https://www.google.com/search?client=opera-gx&q=programa%C3%A7%C3%A3o+web+sobre&sourceid=opera&ie=UTF-8&oe=UTF-8"><button type="button">Ler Mais</button></a>
+                </div><!--Paragrafo-button-->
+            </div><!--Card-->
+
+            <div class="Card">
+                <i class="fas fa-bars"></i>  
+                <h5>serviços de um front-end</h5>
+                <div class="Paragrafo-button">
+                    <p> Veja como funciona o serviços de um front-end                                                                                      
+                        </p>
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUx8Dn0o_-AhVhqpUCHRZTBfoQFnoECAsQAw&url=https%3A%2F%2Febaconline.com.br%2Fblog%2Fdesenvolvedor-front-end-o-que-faz%23%3A~%3Atext%3DO%2520profissional%2520desenvolvedor%2520front%252Dend%2Ccomo%2520HTML%252C%2520CSS%2520e%2520JavaScript.&usg=AOvVaw113WwUFy9yixdcBIxpQhEm"><button type="button">Ler Mais</button></a>
+                </div>
+            </div>
+
+            <div class="Card">
+                <i class="fas fa-bars"></i>
+                <h5>Sobre meu serviçoes</h5>
+                <div class="Paragrafo-button">
+                    <p> Quer Saber um poucomais sobre meus serviçoes? </p>
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUx8Dn0o_-AhVhqpUCHRZTBfoQFnoECEEQAw&url=https%3A%2F%2Fbr.talent.com%2Fsalary%3Fjob%3Dprogramador%2Bfront%2Bend%23%3A~%3Atext%3DO%2520sal%25C3%25A1rio%2520m%25C3%25A9dio%2520de%2520programador%2CR%252420%252C00%2520por%2520hora.&usg=AOvVaw1NI51HSgvGUddGUOSvM6ae"><button type="button">Ler Mais</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <!-- Variedades -->
+    <div class="ability" id="Variedades">
+        <p>"Sinta a dor do processo, ou a do arrempendimento."</p>
+     
+    </div>
+
+  
+    <footer id="Contato">
+          <h6>Fmeira219@gmail.com</h6>
+          <p>estou em processo de melhorias na programação!</p>
+        <p>Para conhecer mais sobre Mim, clique aqui</p>
+      
+        <div class="Redes-sociais">
+            <a href="https://instagram.com/meirazz_?igshid=YmMyMTA2M2Y=" class="fab fa-instagram" target"_blank" class="Instagram"></a> <!--esta diricionando namesma paginatem que arrumar-->
+            <a href="https://web.whatsapp.com/send?phone=5565996330317" class="fab fa-whatsapp" target="_blank" class= "Whatsapp"></a>
+            <a href=" " class="fab fa-telegram" target="_blank" class= "facebook"></a> <!--colocar o link Meiraaaa-->>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+
